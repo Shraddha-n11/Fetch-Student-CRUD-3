@@ -1,0 +1,43 @@
+
+body {
+    background: #f0f4f8;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #243b55;
+    padding: 20px;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #0002;
+}
+
+.card-header {
+    background: #243b55;
+    color: white;
+}
+
+label {
+    font-weight: bold;
+}
+
+.table {
+    background: white;
+}
+
+.table thead {
+    background: #243b55;
+    color: white;
+}
+
+.spinner {
+    position: fixed;
+    inset: 0;
+    background: #ffffffcc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
